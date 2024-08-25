@@ -1,0 +1,189 @@
+.product-detail-container {
+    width: 100%;
+    padding: 20px;
+    max-width: 1200px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the container */
+}
+
+.big-photo img,
+.horizontal-photos img,
+.photo-and-description img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.option-item img {
+    object-fit: contain;
+}
+
+
+.horizontal-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.horizontal-photos img {
+    width: calc(50% - 5px);
+}
+
+.photo-and-description {
+    display: flex; /* Flexbox kullanarak yan yana hizalayalım */
+    align-items: center; /* Dikey hizalama için */
+    margin-bottom: 40px;
+}
+
+.photo-and-description img {
+    width: 50%; /* Fotoğraf genişliği %50 yapıldı */
+    margin-right: 20px; /* Sağda boşluk oluşturuldu */
+}
+
+.description {
+    width: 50%; /* Açıklama genişliği %50 yapıldı */
+}
+
+
+.options {
+    margin-bottom: 40px;
+}
+
+.options h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.option-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.option-item {
+    text-align: center;
+    width: calc(33.333% - 6.666px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Görsel ve metni yukarı ve aşağı hizalar */
+}
+
+.option-item img {
+    width: 100%;
+    height: auto;
+    flex-grow: 1; /* Görselin alanını esnetir */
+}
+
+.option-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    flex-shrink: 0; /* Metnin sabit kalmasını sağlar */
+}
+
+.options a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+
+.back-button-detail {
+    position: fixed;
+    top: 20%;
+    left: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    z-index: 1000;
+    display: none; /* Default hidden */
+}
+
+.back-button-detail.show {
+    display: block; /* Show when needed */
+}
+
+.error {
+    color: red; /* Style for error message */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .horizontal-photos img,
+    .photo-and-description img {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .option-item {
+        width: calc(50% - 6.666px); /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .option-item {
+        width: 100%; /* Full width on extra small screens */
+    }
+
+    .back-button-detail {
+        left: 10px; /* Adjust left position */
+        padding: 8px 15px; /* Adjust padding */
+    }
+}
+
+/* Küçük ekranlar için */
+@media (max-width: 768px) { /* Ekran genişliği 768px ve altındaysa */
+    .photo-and-description {
+        flex-direction: column; /* Flex yönünü dikey yap */
+        align-items: flex-start; /* Soldan hizala */
+    }
+
+    .photo-and-description img {
+        width: 100%; /* Fotoğraf genişliği %100 yapıldı */
+        margin-right: 0; /* Sağ boşluk kaldırıldı */
+        margin-bottom: 20px; /* Alt boşluk eklendi */
+    }
+
+    .description {
+        width: 100%; /* Açıklama genişliği %100 yapıldı */
+    }
+}
+
+.measurements{
+    padding-left: 5%;
+    text-align: center;
+}
+.measurements-header{
+    text-align: center;
+}
+
+.measurements-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.measurements-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.measurements-column p {
+    margin: 5px 0;
+}
+
+

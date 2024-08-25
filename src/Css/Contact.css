@@ -1,0 +1,64 @@
+/* Footer Genel Stil */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #007BFF; /* Profesyonel bir görünüm için border ekleyebilirsiniz */
+}
+
+/* Footer İçeriği */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem; /* İçeriklerin arasında boşluk bırakmak için gap ekleyin */
+}
+
+/* İletişim Bilgileri ve Sosyal Medya */
+.contact-info,
+.social-media {
+    margin-bottom: 1rem;
+    flex: 1 1 250px; /* Flex item'ları 250px genişlikte başlayıp esnek olsun */
+}
+
+/* Şirket Logosu */
+.contact-logo {
+    font-size: 2rem; /* Logonun daha belirgin olması için boyutu arttırın */
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* Sosyal Medya İkonları */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* İkonlar arasına boşluk eklemek için gap kullanın */
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 2rem; /* İkon boyutunu biraz büyütün */
+    transition: color 0.3s ease, transform 0.3s ease; /* Hover efekti için transform ekleyin */
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+    transform: scale(1.1); /* Hover sırasında ikonları büyütün */
+}
+
+/* Footer Alt Kısmı */
+.footer-bottom {
+    margin-top: 2rem; /* Alt kısmın daha belirgin olması için boşluk ekleyin */
+    font-size: 0.875rem; /* Yazı boyutunu biraz küçültün */
+}
+
+/* Paragraf Stili */
+.p {
+    text-align: center;
+    margin: 0; /* Paragrafın etrafındaki boşlukları kaldırın */
+}

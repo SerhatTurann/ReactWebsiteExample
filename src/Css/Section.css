@@ -1,0 +1,18 @@
+.section {
+  width: 100%;
+  padding: 100px 20px; /* 50px üst, 50px alt boşluk */
+  min-height: 100vh; /* Minimum yükseklik: ekran yüksekliği */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.section:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.section h1 {
+  font-size: 2rem;
+  color: #333;
+}

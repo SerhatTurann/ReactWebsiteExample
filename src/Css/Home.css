@@ -1,0 +1,103 @@
+/* Carousel yapısı ve boyutlandırma */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Caption için geliştirilmiş stil */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4); /* Daha belirgin bir saydam arka plan */
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 45%; /* Max genişlik */
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Metin gölgesi */
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  color: #f0f0f0;
+}
+
+/* Butonlar için geliştirilmiş stil */
+.carousel-caption .btn {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption .btn:hover {
+  color: #f05a28;
+  background: rgba(255, 255, 255, 0.2); /* Hafif saydam arka plan */
+  border-color: #f05a28;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.carousel-caption .btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive tasarım için geliştirmeler */
+@media (max-width: 768px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
+    height: 60vh;
+  }
+
+  .carousel-caption {
+    max-width: 90%;
+    padding: 0.5rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.75rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 0.875rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+/* Daha geniş ekranlar için ek breakpoint */
+@media (min-width: 1200px) {
+  .carousel-caption {
+    max-width: 40%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.5rem;
+  }
+}

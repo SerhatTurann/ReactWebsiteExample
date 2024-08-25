@@ -1,0 +1,100 @@
+.products-section {
+  width: 100%;
+  padding: 100px 20px;
+  background-color: #f9f9f9; /* Arka plan rengini değiştirin */
+  box-sizing: border-box;
+}
+
+.products-header {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.products-header h2 {
+  color: #333; /* Başlık rengi */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Grid elemanları arası boşluk */
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s; /* Hover efekti */
+}
+
+.product:hover {
+  transform: scale(1.05); /* Hover efekti */
+  background-color: #f0f0f0; /* Hover arka plan değişimi */
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column; /* Dikey hizalama */
+  align-items: center; /* Ortaya hizalama */
+  text-align: center; /* Metni ortala */
+}
+
+.product-text {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product-text h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-text p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.product-image {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Yüksekliği sınırla */
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.back-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #555;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}

@@ -13,7 +13,7 @@ const Products = ({ selectedCategory }) => {
   useEffect(() => {
     const fetchProductsData = async () => {
       try {
-        const response = await fetch('/data/products.json');
+        const response = await fetch('https://raw.githubusercontent.com/SerhatTurann/ReactWebsiteExample/main/public/data/products.json');
         if (!response.ok) {
           throw new Error('Veri alınamadı, lütfen tekrar deneyin.');
         }

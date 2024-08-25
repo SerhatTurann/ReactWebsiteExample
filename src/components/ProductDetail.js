@@ -38,7 +38,7 @@ const ProductDetail = ({ product, onBack, selectedCategory }) => {
             setLoadingOptions(true);
             setError(null);
             try {
-                const response = await fetch('/data/productOptions.json');
+                const response = await fetch('https://raw.githubusercontent.com/SerhatTurann/ReactWebsiteExample/main/public/data/productOptions.json');
                 if (!response.ok) {
                     throw new Error('Ürün seçenekleri alınamadı.');
                 }

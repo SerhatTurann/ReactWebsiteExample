@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Duşakabin",
+      "description": "Duşakabin açıklaması",
+      "image": "dusakabin-image-url",
+      "products": [
+        {
+          "name": "Ürün 1",
+          "description": "Ürün 1 açıklaması",
+          "image": "urun-1-image-url",
+          "bigPhotoUrl": "büyük-fotoğraf-url",
+          "horizontalPhoto1Url": "foto1-url",
+          "horizontalPhoto2Url": "foto2-url",
+          "photoAndDescriptionPhotoUrl": "foto3-url",
+          "category": "Duşakabin"
+        }
+      ],
+      "subcategories": []
+    },
+    {
+      "name": "Jakuzi",
+      "description": "Jakuzi açıklaması",
+      "image": "jakuzi-image-url",
+      "products": [
+        {
+          "name": "Jakuzi Ürün 1",
+          "description": "Jakuzi Ürün 1 açıklaması",
+          "image": "jakuzi-urun-1-image-url",
+          "bigPhotoUrl": "büyük-fotoğraf-url",
+          "horizontalPhoto1Url": "foto1-url",
+          "horizontalPhoto2Url": "foto2-url",
+          "photoAndDescriptionPhotoUrl": "foto3-url",
+          "category": "Jakuzi"
+        }
+      ],
+      "subcategories": []
+    }
+  ]
+}

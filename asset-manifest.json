@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ReactWebsiteExample/static/css/main.512fb3df.css",
+    "main.js": "/ReactWebsiteExample/static/js/main.ec03b5ca.js",
+    "static/js/453.b92847d4.chunk.js": "/ReactWebsiteExample/static/js/453.b92847d4.chunk.js",
+    "static/media/2.jpg": "/ReactWebsiteExample/static/media/2.4ab5fc29b19dc3f843bd.jpg",
+    "static/media/3.jpg": "/ReactWebsiteExample/static/media/3.b409bf653b4ad0d4da7c.jpg",
+    "static/media/1.jpg": "/ReactWebsiteExample/static/media/1.4a4378a48b63b3e1a4f7.jpg",
+    "static/media/logo2.jpg": "/ReactWebsiteExample/static/media/logo2.46b0e55760d418f817a0.jpg",
+    "static/media/logo1.jpg": "/ReactWebsiteExample/static/media/logo1.4892dfcb482252343dad.jpg",
+    "static/media/logo11.jpg": "/ReactWebsiteExample/static/media/logo11.14999082a00a0b4f9c09.jpg",
+    "static/media/logo15.jpg": "/ReactWebsiteExample/static/media/logo15.b0c7107a425fd14c2a34.jpg",
+    "static/media/logo6.jpg": "/ReactWebsiteExample/static/media/logo6.4de93bfda727f55a1781.jpg",
+    "static/media/hakkımızda.jpg": "/ReactWebsiteExample/static/media/hakkımızda.b4566994962acd79b64a.jpg",
+    "static/media/logo4.jpg": "/ReactWebsiteExample/static/media/logo4.d093cf2ebb9ed7b28fdb.jpg",
+    "static/media/logo9.jpg": "/ReactWebsiteExample/static/media/logo9.8b81d35c67f934e3e421.jpg",
+    "static/media/logo14.jpg": "/ReactWebsiteExample/static/media/logo14.cae06049cc7b5a698f84.jpg",
+    "static/media/logo12.jpg": "/ReactWebsiteExample/static/media/logo12.1f6c6972820fa913ec76.jpg",
+    "index.html": "/ReactWebsiteExample/index.html",
+    "main.512fb3df.css.map": "/ReactWebsiteExample/static/css/main.512fb3df.css.map",
+    "main.ec03b5ca.js.map": "/ReactWebsiteExample/static/js/main.ec03b5ca.js.map",
+    "453.b92847d4.chunk.js.map": "/ReactWebsiteExample/static/js/453.b92847d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.512fb3df.css",
+    "static/js/main.ec03b5ca.js"
+  ]
+}

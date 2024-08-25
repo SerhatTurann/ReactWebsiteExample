@@ -8,7 +8,7 @@ const Navbar = ({ onCategoryClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    fetch('https://github.com/SerhatTurann/ReactWebsiteExample/blob/main/public/data/products.json')
+    fetch('https://github.com/SerhatTurann/ReactWebsiteExample/raw/main/public/data/products.json')
       .then((response) => response.json())
       .then((data) => setCategories(data.categories));
   }, []);
@@ -44,7 +44,7 @@ const Navbar = ({ onCategoryClick }) => {
       <ul className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
         <li><a href="#home" onClick={closeMenu}>Anasayfa</a></li>
         <li><a href="#about" onClick={closeMenu}>Hakkımızda</a></li>
-        <li><a href="https://github.com/SerhatTurann/ReactWebsiteExample/blob/main/public/catalog.pdf" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Online Katalog</a></li>
+        <li><a href="https://github.com/SerhatTurann/ReactWebsiteExample/raw/main/public/catalog.pdf" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Online Katalog</a></li>
         <li className="dropdown">
           <a href="#products" onClick={() => [closeMenu(), handleCategoryClick(null)]}>Ürünler</a>
           <div className="dropdown-content">

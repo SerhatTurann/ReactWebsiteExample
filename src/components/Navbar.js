@@ -8,7 +8,7 @@ const Navbar = ({ onCategoryClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    fetch('https://github.com/SerhatTurann/ReactWebsiteExample/raw/main/public/data/products.json')
+    fetch('https://raw.githubusercontent.com/SerhatTurann/ReactWebsiteExample/main/public/data/products.json')
       .then((response) => response.json())
       .then((data) => setCategories(data.categories));
   }, []);

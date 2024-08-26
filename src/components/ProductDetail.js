@@ -10,7 +10,7 @@ const ProductDetail = ({ product, onBack, selectedCategory }) => {
     const [loadingOptions, setLoadingOptions] = useState(true);
     const [error, setError] = useState(null);
 
-    const getThreshold = () => window.innerWidth < 768 ? 0.05 : 0.13;
+    const getThreshold = () => window.innerWidth < 768 ? 0.05 : 0.1;
 
     const observer = useMemo(() => {
         return new IntersectionObserver(
